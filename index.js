@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'standard',
+  extends: require.resolve('eslint-config-standard'),
   rules: {
     'comma-dangle': 0,
     'indent': 0,
