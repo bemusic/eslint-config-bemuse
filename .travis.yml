@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '5'
+deploy:
+  provider: npm
+  email: org.yi.dttvb@gmail.com
+  api_key:
+    secure: wB+yPKGqBZuxqnyGPcesKNF+tuCgevfF073ykxi/W0vzg3YZNbxBrafgovsKPxJWFfdZBrcHb6ri5F33pl291NBoLeqSHoDo2MEZDlTAGx3WEYZdmAYAPlqCCp3Yv2aFuSpXWnflU3IIkQJUs3V7ukmC9MyE6e9359Jm2dsN7ZFfe6k6EBlQ98gl2ZhY7b0vAkzgP+iY9it8Gf/5GHJCQvk6dK2Dd4zAQHco2FHUyyLfRuufJK/6HIBgEhQsTYzdLuhYUXG4OQQlzbkbWnT6i/6lWKcVMmeeVfv+yA2+f0uz6B/6KsVdCeaFf07nv+y0Nv4/MIgkL1uCK8wcB8Mvm7v7PIYY6MHZpoD4jol3dlyHXT5yG3D2OzSZWuXiOMGOEavFYW04INyVMEACAfhQgFfvpm3kuKWbuGxc5Df+/260+EBfOltiUh6w0BmQ9+8XGf6+y+n1PTVk3zKsSO5qR1oSLuZXuC3EFzwT74GqxrkDKycpleO0K+GJM8qllqwuSPFSFjSxhUaeVQCpO3zCIU3p8aB5/EpzhUsZSjZOAOx43I94Noje0Pz1KH3+1h+eDUKhOj0T/GvhX4I6uWnCyrC9cP8kDJQVJ1GrXRyYpAOeCzGrEGflLtFGZZ7k1ycRgmynTCI9qMmQFDGNIiSrezDj15PMJh5aNnNfNhNV4us=
+  on:
+    tags: true
+    repo: bemusic/eslint-config-bemuse
