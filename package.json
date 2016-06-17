@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bemuse",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Bemuse ESLint shareable configuration -- based on standard (but a bit looser)",
   "main": "index.js",
   "scripts": {
