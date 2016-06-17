@@ -15,6 +15,7 @@ module.exports = {
     'no-return-assign': [ 2, 'except-parens' ],
     'padded-blocks': 0,
     'spaced-comment': 0,
+    'no-sequences': 0,
     'yoda': 0,
   }
 }
